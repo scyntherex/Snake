@@ -16,7 +16,9 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+@SuppressWarnings("serial")
 public class Board extends JPanel implements ActionListener {
+	
 	private final int B_WIDTH = 300;
     private final int B_HEIGHT = 300;
     private final int DOT_SIZE = 10;
